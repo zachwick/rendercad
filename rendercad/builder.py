@@ -32,6 +32,7 @@ def get_service_block():
         "flask",
         "flower",
         "redis",
+        "sinatra",
         "worker",
         # "postgresql",
     ]
