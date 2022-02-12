@@ -1,3 +1,4 @@
 databases:
   - name: postgresql
     ipAllowList: [] # Only internally accessible
+

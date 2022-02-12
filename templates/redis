@@ -11,3 +11,4 @@
       name: redis-data
       mountPath: /var/lib/redis
       sizeGB: 10
+

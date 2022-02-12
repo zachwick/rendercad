@@ -8,3 +8,4 @@
     startCommand: celery -A tasks flower --basic_auth=for:bar -l info
     envVars:
       - fromGroup: group1
+

@@ -6,3 +6,4 @@
     startCommand: celery -A tasks worker -l info
     envVars:
       - fromGroup: group1
+

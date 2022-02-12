@@ -31,6 +31,7 @@ def get_service_block():
     templates = [
         "flask",
         "flower",
+        "python_cron",
         "redis",
         "sinatra",
         "worker",

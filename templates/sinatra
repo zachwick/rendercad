@@ -24,3 +24,4 @@
           type: pserv
           name: redis
           envVarKey: GENERATED_SECRET
+
