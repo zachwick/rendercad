@@ -1,0 +1,16 @@
+  # Flask application
+  - type: web
+    name: flask
+    env: python
+    repo: https://github.com/YOUR_USERNAME/YOUR_REPO
+    branch: main
+    scaling:
+      minInstances: 1
+      maxInstances: 3
+      targetMemoryPercent: 60
+      targetCPUPercent: 60
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn app:app
+    envVars:
+      - fromGroup: group1
+    autoDeploy: true

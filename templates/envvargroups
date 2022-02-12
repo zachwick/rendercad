@@ -1,0 +1,7 @@
+envVarGroups:
+  - name: group1
+    envVars:
+      - key: CELERY_BROKER_URL
+        value: redis://YOUR_REDIS_SERVICE_ADDRESS_FROM_DASHBOARD_HERE
+      - key: EXAMPLE_OTHER_KEY
+        value: foobarbaz1234

@@ -1,0 +1,13 @@
+  # A private Redis instance for brokering Celery tasks
+  - type: pserv
+    name: redis
+    env: docker
+    envVars:
+      - key: GENERATED_SECRET
+        generateValue: true
+      - key: DASHBOARD_SECRET
+        sync: false
+    disk:
+      name: redis-data
+      mountPath: /var/lib/redis
+      sizeGB: 10
